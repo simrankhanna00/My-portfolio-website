@@ -540,6 +540,30 @@ form button:hover {
 }
 
 
+
+.nav-link, .resume-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  background-color: #831bcd; /* Purple background */
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add some shadow */
+}
+
+.nav-link:hover, .resume-button:hover {
+  background-color: #f9620b; /* Orange on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.nav-link {
+  margin-right: 10px; /* Add spacing between links */
+}
+
+
+
 /* Dark Mode Adjustments */
 .dark-mode .navbar {
     background-color: #333;
